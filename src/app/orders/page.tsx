@@ -1,9 +1,12 @@
-import React from 'react'
+import PageTitle from "@/components/PageTitle";
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 export default function OrdersPage({}: Props) {
   return (
-    <div>OrdersPage</div>
-  )
+    <div>
+      <PageTitle title="Orders" />
+    </div>
+  );
 }

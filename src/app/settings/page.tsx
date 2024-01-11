@@ -1,9 +1,12 @@
+import PageTitle from '@/components/PageTitle'
 import React from 'react'
 
 type Props = {}
 
 export default function SettingsPage({}: Props) {
   return (
-    <div>SettingsPage</div>
+    <div>
+      <PageTitle title="Settings" />
+    </div>
   )
 }
