@@ -79,7 +79,7 @@ export default function Home() {
     <div className="flex flex-col gap-5 w-full">
       <PageTitle title="Dashboard" />
       {/* cards */}
-      <section className="grid w-full grid-cols-1 gap-4 gap-x-8 transition-all sm:grid-cols-4 xl:grid-cols-4">
+      <section className="grid w-full grid-cols-1 gap-4 gap-x-8 transition-all sm:grid-cols-4 md:grid-cols-2 xl:grid-cols-4 ">
         {cardData.map((card, index) => (
           <Card key={index} {...card} />
         ))}
